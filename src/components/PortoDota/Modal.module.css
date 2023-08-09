@@ -88,7 +88,6 @@
   height: 100px;
   position: relative;
   border-radius: 10px 10px 0px 0px;
-  overflow: hidden;
 }
 .img-icon {
   height: 25px;
@@ -185,6 +184,7 @@
   .modal-content_section1 {
     display: flex;
     margin-top: 10px;
+    /* border: 2px solid red; */
   }
   .hero_stats {
     margin-left: 10px;
@@ -197,5 +197,11 @@
   .table-style {
     padding-top: 5px;
     margin-left: 0px;
+  }
+
+  .img-hero {
+    width: 200px;
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
   }
 }
