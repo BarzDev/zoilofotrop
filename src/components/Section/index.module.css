@@ -66,7 +66,7 @@
 
 .section-footer {
   height: 10%;
-  border: 2px solid salmon;
+  /* border: 2px solid salmon; */
 }
 
 @media only screen and (max-width: 700px) {

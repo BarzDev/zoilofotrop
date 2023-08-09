@@ -1,6 +1,7 @@
 import style from "@/components/PortoStore/Store/index.module.css";
 import { useCartDispatchh } from "@/context/CartContext";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const Store = ({ products }) => {
   // console.log(products);
@@ -47,9 +48,7 @@ const Store = ({ products }) => {
                 <div className="badge" style={{ backgroundColor: "#E62008", color: "white", border: "none" }}>
                   Hot Sales
                 </div>
-                <h2 className="card-title" style={{ color: "white" }}>
-                  {priceWithoutCents}
-                </h2>
+                <h2 className={style["card-title"]}>{priceWithoutCents}</h2>
                 <div className={style["product-price"]}>
                   <p style={{ color: "white" }}>{product.title}</p>
                 </div>
