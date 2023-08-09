@@ -1,0 +1,36 @@
+/* CSS untuk DotaList */
+.dota-list-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 65px;
+  background-color: var(--color-dark-blue);
+}
+
+.hero-icon {
+  height: 30px;
+  position: relative;
+}
+
+.img-icon {
+  height: 30px;
+  border-radius: 25px;
+  position: relative;
+}
+.img-atk {
+  height: 30px;
+  position: relative;
+}
+
+.img-hero {
+  height: 150px;
+}
+
+@media screen and (max-width: 700px) {
+  .dota-list-container {
+    margin: 0px;
+    padding: 10px;
+    padding-top: 65px;
+    width: 155vw;
+    height: auto;
+  }
+}

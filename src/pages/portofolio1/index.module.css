@@ -1,0 +1,16 @@
+.title {
+  font-weight: bolder;
+  font-size: larger;
+  color: #292c4b;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 5;
+  top: 64px;
+}
+
+.Home {
+  display: flex;
+  gap: 24px;
+  position: relative;
+}
