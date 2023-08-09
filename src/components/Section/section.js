@@ -42,7 +42,7 @@ const Section = ({ aboutRef, sectionRef }) => {
         <div className={styles["section-card"]}>
           <div className="card w-96 bg-base-100 shadow-xl image-full">
             <div className={styles["card_img"]}>
-              <Image src="/Porto1.png" alt="Portofolio1" fill style={{ objectFit: "contain" }} />
+              <Image src="/porto1.png" alt="Portofolio1" fill style={{ objectFit: "contain" }} />
             </div>
             <div className="card-body" style={{ cursor: "default" }}>
               <h2 className="card-title" style={{ color: "#fff" }}>
@@ -61,7 +61,7 @@ const Section = ({ aboutRef, sectionRef }) => {
         <div className={styles["section-card"]}>
           <div className="card w-96 bg-base-100 shadow-xl image-full">
             <div className={styles["card_img"]}>
-              <Image src="/Porto2.png" alt="Portofolio2" fill style={{ objectFit: "contain" }} />
+              <Image src="/porto2.png" alt="Portofolio2" fill style={{ objectFit: "contain" }} />
             </div>
             <div className="card-body" style={{ cursor: "default" }}>
               <h2 className="card-title" style={{ color: "#fff" }}>
