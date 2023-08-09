@@ -32,9 +32,14 @@ const About = () => {
           </div>
           <div className={styles["bio-introduce"]}>
             <p className="pb-3">Let me introduce my-self,</p>
-            <p> My name Fakhrul Ghozali Akbar, i'm a diploma degree and I'm a front-end developer who utilizes the React.js framework, specifically Next.js, along with Bootstrap and DaisyUI as CSS framework.</p>
+            <p> My name Fakhrul Ghozali Akbar, I&apos;m a diploma degree and I&apos;m a front-end developer who utilizes the React.js framework, specifically Next.js, along with Bootstrap and DaisyUI as CSS framework.</p>
             <div style={{ width: "100%", textAlign: "center" }}>
-              <p className="pt-5">Take a journey through my portfolio and explore my creations below. 😊😊</p>
+              <p className="pt-5">
+                Take a journey through my portfolio and explore my creations below.{" "}
+                <span role="img" aria-label="smile">
+                  😊😊
+                </span>
+              </p>
             </div>
           </div>
         </div>
