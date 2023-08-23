@@ -83,7 +83,7 @@ const Section = ({ aboutRef, sectionRef }) => {
         <div className={styles["section-card"]}>
           <div className="card w-96 bg-base-100 shadow-xl image-full overflow-hidden">
             <div className={styles["card_img"]}>
-              <Image src="/porto3.png" alt="Portofolio3" fill style={{ objectFit: "contain" }} />
+              <Image src="/porto3.PNG" alt="Portofolio3" fill style={{ objectFit: "contain" }} />
             </div>
             <div className="card-body" style={{ cursor: "default" }}>
               <h2 className="card-title" style={{ color: "#fff" }}>
