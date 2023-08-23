@@ -1,7 +1,7 @@
 import style from "@/components/PortoStore/Store/index.module.css";
 import { useCartDispatchh } from "@/context/CartContext";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import Swal from "sweetalert2";
 
 const Store = ({ products }) => {
   // console.log(products);
@@ -11,6 +11,12 @@ const Store = ({ products }) => {
     dispatch({
       type: "add",
       payload: product,
+    });
+
+    Swal.fire({
+      title: "Product add to cart",
+      confirmButtonColor: "var(--color-blue)",
+      icon: "success",
     });
   };
 

@@ -1,0 +1,33 @@
+[
+  {
+    "gofood": "https://gofood.link/a/yM8YtmU",
+    "grabfood": "https://food.grab.com/id/id/restaurant/taichan-addict-sukasari-tangerang-sukasari-delivery/6-CZMCLPMVT3UHT2",
+    "merchantName": "Taichan Addict",
+    "shopeefood": "https://shopee.co.id/universal-link/now-food/shop/1142486?deep_and_deferred=1&shareChannel=whatsapp"
+  },
+
+  {
+    "gofood": "https://gofood.link/a/BmFfFFf",
+    "grabfood": "https://food.grab.com/id/id/restaurant/mie-ayam-bakso-tijani888-sukasari-delivery/6-C2A3TKEVNKDCCN",
+    "merchantName": "Mie Ayam Bakso Tijani888",
+    "shopeefood": "https://shopee.co.id/universal-link/now-food/shop/1184617?deep_and_deferred=1&shareChannel=copy_link"
+  },
+  {
+    "gofood": "https://gofood.co.id/jakarta/restaurant/soto-dan-sop-babat-haji-aceng-kec-tangerang-f74b5e74-edb4-48ef-979a-d448a1ab3be6",
+    "grabfood": "",
+    "merchantName": "Soto dan Sop Babat Haji Aceng",
+    "shopeefood": "https://shopee.co.id/universal-link/now-food/shop/904925?deep_and_deferred=1&shareChannel=copy_link"
+  },
+  {
+    "merchantName": "Nasi Goreng Kenita",
+    "shopeefood": "https://shopee.co.id/universal-link/now-food/shop/1008066?deep_and_deferred=1&shareChannel=whatsapp",
+    "grabfood": "",
+    "gofood": "https://gofood.co.id/jakarta/restaurant/nasi-goreng-kenita-11767fc0-5d6d-4eab-95ea-efc4e49f0310"
+  },
+  {
+    "merchantName": "Chatime Tangcity",
+    "shopeefood": "https://shopee.co.id/universal-link/now-food/shop/32444?deep_and_deferred=1&shareChannel=copy_link",
+    "grabfood": "https://food.grab.com/id/id/restaurant/chatime-tangerang-city-delivery/IDGFSTI000010iu",
+    "gofood": "https://gofood.co.id/jakarta/restaurant/chatime-tangcity-mall-af7f5efb-5fd2-4f87-a212-4ed3fb4cb2c6"
+  }
+]

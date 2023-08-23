@@ -10,6 +10,9 @@ const Section = ({ aboutRef, sectionRef }) => {
   const btnPorto2 = () => {
     router.push("/portofolio2");
   };
+  const btnPorto3 = () => {
+    router.push("/portofolio3");
+  };
 
   const handleAboutClick = () => {
     aboutRef.current.scrollIntoView({ behavior: "smooth" });
@@ -70,6 +73,25 @@ const Section = ({ aboutRef, sectionRef }) => {
               <p style={{ color: "#fff" }}>List Hero Dota 2 using open dota API</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-success" onClick={btnPorto2}>
+                  View
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles["section-card"]}>
+          <div className="card w-96 bg-base-100 shadow-xl image-full overflow-hidden">
+            <div className={styles["card_img"]}>
+              <Image src="/porto3.png" alt="Portofolio3" fill style={{ objectFit: "contain" }} />
+            </div>
+            <div className="card-body" style={{ cursor: "default" }}>
+              <h2 className="card-title" style={{ color: "#fff" }}>
+                Merchant Promote
+              </h2>
+              <p style={{ color: "#fff" }}>Promoting Merchant user</p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-success" onClick={btnPorto3}>
                   View
                 </button>
               </div>

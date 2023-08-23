@@ -10,7 +10,7 @@ const Navbar = ({ aboutRef, sectionRef }) => {
     sectionRef.current.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className="navbar bg-base-100 fixed top-0 left-0 w-full" style={{ zIndex: "5" }}>
+    <div className="navbar bg-base-100 fixed top-0 left-0 w-full" style={{ zIndex: "10" }}>
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -31,6 +31,9 @@ const Navbar = ({ aboutRef, sectionRef }) => {
                 <li>
                   <Link href="/portofolio2">Portofolio Dota API</Link>
                 </li>
+                <li>
+                  <Link href="/portofolio3">Portofolio Merchant</Link>
+                </li>
               </ul>
             </li>
             <li>
@@ -38,7 +41,9 @@ const Navbar = ({ aboutRef, sectionRef }) => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">My Portofolio Web</a>
+        <Link href="/" className="btn btn-ghost normal-case text-xl">
+          My Portofolio Web
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal">
@@ -57,6 +62,9 @@ const Navbar = ({ aboutRef, sectionRef }) => {
                 </li>
                 <li>
                   <Link href="/portofolio2">Portofolio Dota API</Link>
+                </li>
+                <li>
+                  <Link href="/portofolio3">Portofolio Merchant</Link>
                 </li>
               </ul>
             </details>

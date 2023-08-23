@@ -32,14 +32,18 @@ const NavbarPortofolio = () => {
                   </li>
                 </ul>
               </li>
-
               <li>
                 <Link href="/portofolio2">Portofolio Dota API</Link>
+              </li>
+              <li>
+                <Link href="/portofolio3">Portofolio Merchant</Link>
               </li>
             </ul>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">My Portofolio Web</a>
+        <Link href="/" className="btn btn-ghost normal-case text-xl">
+          My Portofolio Web
+        </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
         <Link className="btn btn-ghost normal-case text-xl" href="/">
