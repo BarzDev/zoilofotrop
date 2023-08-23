@@ -3,7 +3,7 @@ import FoodList from "@/components/PortoFood/foodlist";
 import { useEffect, useState } from "react";
 import data from "public/data.json";
 
-const portofolio3 = () => {
+const Portofolio3 = () => {
   const [dbInitialFood, setDbInitialFood] = useState([]);
 
   useEffect(() => {
@@ -21,4 +21,4 @@ const portofolio3 = () => {
   );
 };
 
-export default portofolio3;
+export default Portofolio3;
