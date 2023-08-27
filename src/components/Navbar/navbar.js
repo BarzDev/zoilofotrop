@@ -26,7 +26,7 @@ const Navbar = ({ aboutRef, sectionRef }) => {
               <a>List Portofolio</a>
               <ul className="p-2">
                 <li>
-                  <Link href="/portofolio1">Portofolio POS</Link>
+                  <Link href="/portofolio1">Portofolio Marketplace</Link>
                 </li>
                 <li>
                   <Link href="/portofolio2">Portofolio Dota API</Link>
@@ -58,7 +58,7 @@ const Navbar = ({ aboutRef, sectionRef }) => {
               <summary>List Portofolio</summary>
               <ul className="p-2">
                 <li>
-                  <Link href="/portofolio1">Portofolio POS</Link>
+                  <Link href="/portofolio1">Portofolio Marketplace</Link>
                 </li>
                 <li>
                   <Link href="/portofolio2">Portofolio Dota API</Link>

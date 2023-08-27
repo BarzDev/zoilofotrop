@@ -22,7 +22,7 @@ const NavbarPortofolio = () => {
 
             <ul className="p-2">
               <li>
-                <Link href="/portofolio1">Portofolio POS</Link>
+                <Link href="/portofolio1">Portofolio Marketplace</Link>
                 <ul className="p-2">
                   <li>
                     <Link href="/portofolio1">Product List</Link>

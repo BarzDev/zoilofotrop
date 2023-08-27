@@ -49,9 +49,9 @@ const Section = ({ aboutRef, sectionRef }) => {
             </div>
             <div className="card-body" style={{ cursor: "default" }}>
               <h2 className="card-title" style={{ color: "#fff" }}>
-                POS
+                Marketplace
               </h2>
-              <p style={{ color: "#fff" }}>POS Web using public API</p>
+              <p style={{ color: "#fff" }}>Marketplace Web using public API</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-success" onClick={btnPorto1}>
                   View

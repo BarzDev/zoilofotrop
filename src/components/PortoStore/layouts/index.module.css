@@ -60,7 +60,7 @@
   padding: 24px;
 }
 
-.cart {
+/* .cart {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,7 +71,7 @@
   margin-top: 4px;
   border: 2px solid var(--color-blue);
   border-radius: 25px;
-}
+} */
 
 @media only screen and (max-width: 700px) {
   .layout {

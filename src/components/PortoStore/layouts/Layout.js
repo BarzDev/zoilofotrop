@@ -24,9 +24,7 @@ const Layout = ({ children }) => {
                 <li key={index} className={router.pathname === menu.path ? styles.active : ""} onClick={() => handleChagePage(menu.path)}>
                   {menu.name}
                   {menu.path === "/portofolio1/cart" && ( // Display the indicator only for the "cart" path
-                    <div className={styles.cart}>
-                      <p>{totalQuantity}</p>
-                    </div>
+                    <p className="ps-2"> ({totalQuantity})</p>
                   )}
                 </li>
               );

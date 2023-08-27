@@ -1,5 +1,6 @@
 import { useCart, useCartDispatchh } from "@/context/CartContext";
 import style from "@/components/PortoStore/Carts/index.module.css";
+import Swal from "sweetalert2";
 
 const TableCart = () => {
   const carts = useCart();
@@ -34,9 +35,24 @@ const TableCart = () => {
   };
 
   const handleRemove = (cart) => {
-    dispatch({
-      type: "remove",
-      payload: cart,
+    Swal.fire({
+      icon: "warning",
+      title: "Remove All Item??",
+      showConfirmButton: false,
+      showDenyButton: true,
+      showCancelButton: true,
+      denyButtonText: "Remove",
+    }).then((result) => {
+      /* Read more about isConfirmed, isDenied below */
+      if (result.isDenied) {
+        Swal.fire(
+          { icon: "error", title: "Item Removed" },
+          dispatch({
+            type: "remove",
+            payload: cart,
+          })
+        );
+      }
     });
   };
 
