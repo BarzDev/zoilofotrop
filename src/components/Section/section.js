@@ -13,6 +13,9 @@ const Section = ({ aboutRef, sectionRef }) => {
   const btnPorto3 = () => {
     router.push("/portofolio3");
   };
+  const btnPorto4 = () => {
+    router.push("/portofolio4");
+  };
 
   const handleAboutClick = () => {
     aboutRef.current.scrollIntoView({ behavior: "smooth" });
@@ -89,9 +92,28 @@ const Section = ({ aboutRef, sectionRef }) => {
               <h2 className="card-title" style={{ color: "#fff" }}>
                 Merchant Promote
               </h2>
-              <p style={{ color: "#fff" }}>Promoting Merchant user</p>
+              <p style={{ color: "#fff" }}>Prototype Promoting Merchant user</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-success" onClick={btnPorto3}>
+                  View
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles["section-card"]}>
+          <div className="card w-96 bg-base-100 shadow-xl image-full overflow-hidden">
+            <div className={styles["card_img"]}>
+              <Image src="/porto4.png" alt="Portofolio4" fill style={{ objectFit: "contain" }} />
+            </div>
+            <div className="card-body" style={{ cursor: "default" }}>
+              <h2 className="card-title" style={{ color: "#fff" }}>
+                CRUD
+              </h2>
+              <p style={{ color: "#fff" }}>CRUD using MongoDB</p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-success" onClick={btnPorto4}>
                   View
                 </button>
               </div>

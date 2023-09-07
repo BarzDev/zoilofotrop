@@ -38,6 +38,9 @@ const NavbarPortofolio = () => {
               <li>
                 <Link href="/portofolio3">Portofolio Merchant</Link>
               </li>
+              <li>
+                <Link href="/portofolio4">Portofolio CRUD</Link>
+              </li>
             </ul>
           </ul>
         </div>

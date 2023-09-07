@@ -8,4 +8,8 @@ const storeApi = axios.create({
   baseURL: "https://dummyjson.com/products",
 });
 
-export { dotaApi, storeApi };
+const mongoAPI = axios.create({
+  baseURL: "https://apimongodb.barzdev.repl.co",
+});
+
+export { dotaApi, storeApi, mongoAPI };

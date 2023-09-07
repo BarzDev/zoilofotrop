@@ -34,6 +34,9 @@ const Navbar = ({ aboutRef, sectionRef }) => {
                 <li>
                   <Link href="/portofolio3">Portofolio Merchant</Link>
                 </li>
+                <li>
+                  <Link href="/portofolio4">Portofolio CRUD</Link>
+                </li>
               </ul>
             </li>
             <li>
@@ -65,6 +68,9 @@ const Navbar = ({ aboutRef, sectionRef }) => {
                 </li>
                 <li>
                   <Link href="/portofolio3">Portofolio Merchant</Link>
+                </li>
+                <li>
+                  <Link href="/portofolio4">Portofolio CRUD</Link>
                 </li>
               </ul>
             </details>

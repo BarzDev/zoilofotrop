@@ -44,6 +44,7 @@
   gap: 5px;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   height: 75%;
   /* border: 2px solid salmon; */
 }
@@ -70,11 +71,12 @@
   /* border: 2px solid salmon; */
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .section-container {
     height: auto;
   }
-
+}
+@media only screen and (max-width: 700px) {
   .section-top,
   .section-footer {
     width: auto;
@@ -87,7 +89,6 @@
   }
   .section-content {
     overflow: scroll;
-    flex-wrap: wrap;
     padding: 10px 0px;
   }
 }
