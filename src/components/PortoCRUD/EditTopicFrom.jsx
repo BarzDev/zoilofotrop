@@ -53,11 +53,11 @@ export default function EditTopicForm({ id, title, description }) {
     <>
       <form onSubmit={handleSubmit} className="flex flex-col gap-3">
         <div className="flex flex-col">
-          <label className="font-bold">OLD Title : "{title}"</label>
+          <label className="font-bold">OLD Title : &quot;{title}&quot;</label>
           <input onChange={(e) => setNewTitle(e.target.value)} value={newTitle} className="bg-white border border-slate-500 px-8 py-2" type="text" placeholder="New Title" required />
         </div>
         <div className="flex flex-col">
-          <label className="font-bold">OLD Desc : "{description}"</label>
+          <label className="font-bold">OLD Desc : &quot;{description}&quot;</label>
           <input onChange={(e) => setNewDescription(e.target.value)} value={newDescription} className="bg-white border border-slate-500 px-8 py-2" type="text" placeholder="New Description" required />
         </div>
         <div className="flex gap-5 justify-end">
