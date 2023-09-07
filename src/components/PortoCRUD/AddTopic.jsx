@@ -45,6 +45,12 @@ export default function AddTopic() {
           title: "Data Created",
         });
       } else {
+        router.push("/portofolio4");
+        Toast.fire({
+          icon: "error",
+          title: "DATA FULL MAX 7 ENTRY",
+        });
+
         throw new Error("Failed to create a topic");
       }
     } catch (error) {
